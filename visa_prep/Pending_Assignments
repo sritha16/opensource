@@ -1,0 +1,7 @@
+x,y,z = map(int, input().split())
+time = x*y
+avlbl = z*1440
+if(time <= avlbl):
+    print("YES")
+else:
+    print("NO")
